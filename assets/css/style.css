@@ -1,15 +1,78 @@
-.favorites {
-
+body {
+    background: url(https://i.pinimg.com/564x/3e/84/40/3e8440ffc2784d7a57b34614a4c90707.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.container {
-
+.jumbotron {
+    font-family: 'Delius Swash Caps', cursive;
+    color: black;
+    background: url(https://i.pinimg.com/564x/3e/84/40/3e8440ffc2784d7a57b34614a4c90707.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-#tvshow-buttons {
+button{
+    font-family: 'Delius Swash Caps', cursive;
+    font-size: 50px;
+    color: plum;
+    background-color: black;
+    margin: 10px;
+    border-color: aqua;
+    border-width: 4px;
+    border-radius: 25px;
 
 }
+button:hover{
+    font-family: 'Delius Swash Caps', cursive;
+    font-size: 50px;
+    color: plum;
+    margin: 10px;
+    border-color:palegreen;
+    border-width: 4px;
+}
 
-#tvshows {
-    
+#add-show{
+    font-size: 50px;
+}
+
+label{
+    font-family: 'Delius Swash Caps', cursive;
+    font-size: 50px;
+    border-radius: 4px;
+}
+
+#show-form{
+    font-size: 50px;
+    font-family: 'Delius Swash Caps', cursive;
+    margin: 5px;
+}
+
+#show-input{
+    font-size: 50px;
+}
+
+#add-show{
+    font-size: 50px;
+}
+
+input[type="text"]{
+    font-family: 'Delius Swash Caps', cursive;
+    background-color: black;
+    border-color: aqua;
+    border-width: 4px;
+    border-radius: 25px;
+    margin: 10px;
+    -webkit-text-fill-color: plum;
+}
+
+#gifs-appear-here {
+    font-size: 20px;
+    font-style: italic;
+    color: black;
+}
+
+#showGifs{
+    margin: 15px;
+    display: inline-block;
 }
