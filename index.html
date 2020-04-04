@@ -11,34 +11,49 @@
     <!-- My Style Sheet Link -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
+    <!-- My Reset Style Sheet Link -->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+
+    <!--Google Fonts Link-->
+    <link href="https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&display=swap" rel="stylesheet">
 
     <title>GifTastic</title>
 </head>
 
 <body>
-    <div class="container">
-        <h1>Fantasy Shows</h1>
 
-        
-        <div id="buttons-view"></div>
-        
+    <div class="jumbotron text-center">
+        <h1 class="display-1">My Favorite Shows</h1>
+    </div>
+
+    <div class="container">
+
+        <div id="display-buttons"></div>
+
+        <br>
+        <br>
+        <br>
+
         <!--Input Shows-->
-        <form id="animal-form">
-            <label for="animal-input">Add an Animal</label>
-            <input type="text" id="animal-input"><br>
+        <form id="show-form">
+            <label for="show-input">Search for your favorite show!</label>
+            <input type="text" id="show-input"><br>
 
             <!--Add Show Button -->
-            <button id="add-animal">Submit</button>
+            <button id="add-show">Enter</button>
         </form>
 
+        <br>
+        <br>
+        <br>
 
-        <div id="gifs-appear-here">
-        </div>
+        <div id="gifs-appear-here"></div>
+    </div>
 
- <!--jQ Link-->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>    
-<!--JS Link-->
-<script src="assets/js/app.js"></script>
+    <!--jQ Link-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!--JS Link-->
+    <script src="assets/js/app.js"></script>
 </body>
 
 </html>
