@@ -1,5 +1,5 @@
 //My favorite tv shows array
-var shows = ["Reign", "Game of Thrones", "Outlander", "Frasier", "Sherlock", "The Walking Dead"]
+var shows = ["Reign", "Game of Thrones", "Outlander", "Frasier", "Sherlock", "The Walking Dead","Silicon Valley", "Scandal", "Barry HBO"]
 
 //display buttons
 $("#display-buttons").on("click", ".shows", function (event) {
