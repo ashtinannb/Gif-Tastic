@@ -76,3 +76,8 @@ input[type="text"]{
     margin: 15px;
     display: inline-block;
 }
+
+#footer {
+    background-color: pink;
+    padding: 20px;
+}
