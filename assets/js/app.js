@@ -4,6 +4,7 @@ var shows = ["Reign", "Game of Thrones", "Outlander", "Frasier", "Sherlock", "Th
 //display buttons
 $("#display-buttons").on("click", ".shows", function (event) {
 	event.preventDefault();
+	console.log('Hello')
 	var shows = $(this).attr("data-name");
 	displayShowgif(shows);
 });
@@ -59,8 +60,8 @@ function buttons() {
 
 	// delete previous giphs THIS DOES NOT WORK pls helppp!!! 
 	$("#gifs-appear-here").empty();
-
-	// loop through array of shows
+	$("#display-buttons").empty();
+		// loop through array of shows
 	for (var i = 0; i < shows.length; i++) {
 
 		// buttons for each of my faves in the array
